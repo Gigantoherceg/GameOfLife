@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allDeath_1" xml:space="preserve">
+    <value>A megadott életciklus elött (</value>
+    <comment>18</comment>
+  </data>
+  <data name="allDeath_2" xml:space="preserve">
+    <value>) az összes sejt (</value>
+    <comment>19</comment>
+  </data>
+  <data name="allDeath_3" xml:space="preserve">
+    <value>) elpusztult. :(</value>
+    <comment>20</comment>
+  </data>
+  <data name="closeNumber" xml:space="preserve">
+    <value>Záró sejtszám:</value>
+    <comment>24</comment>
+  </data>
+  <data name="decrease" xml:space="preserve">
+    <value>csökkenés</value>
+    <comment>26</comment>
+  </data>
+  <data name="densityCoefficient" xml:space="preserve">
+    <value>Sűrüségi együttható (2-20):</value>
+    <comment>08</comment>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Adja meg a magasságot (5-35):</value>
+    <comment>05</comment>
+  </data>
+  <data name="lifeCycle" xml:space="preserve">
+    <value>Adja meg az életciklust (2-100):</value>
+    <comment>11</comment>
+  </data>
+  <data name="LifeTime_1" xml:space="preserve">
+    <value>A sejt kolónia életciklusainak száma:</value>
+    <comment>21</comment>
+  </data>
+  <data name="LifeTime_2" xml:space="preserve">
+    <value>A sejt kolónia fejlődése megállt. Életciklusainak száma:</value>
+    <comment>22</comment>
+  </data>
+  <data name="MaxDensityCoefficient" xml:space="preserve">
+    <value>Nagyobbat adott meg a lehetséges maximumnál (20), ezért egy átlagos értékkel dolgozok: 5</value>
+    <comment>10</comment>
+  </data>
+  <data name="MaxHeight" xml:space="preserve">
+    <value>Nagyobbat adott meg a lehetséges maximumnál (35), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>07</comment>
+  </data>
+  <data name="MaxLifeCycle" xml:space="preserve">
+    <value>Nagyobbat adott meg a lehetséges maximumnál (100), ezért egy átlagos értékkel dolgozok: 42</value>
+    <comment>13</comment>
+  </data>
+  <data name="MaxSpeed" xml:space="preserve">
+    <value>Nagyobbat adott meg a lehetséges maximumnál (10), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>16</comment>
+  </data>
+  <data name="MaxWidth" xml:space="preserve">
+    <value>Nagyobbat adott meg a lehetséges maximumnál (116), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>04</comment>
+  </data>
+  <data name="MinDensityCoefficient" xml:space="preserve">
+    <value>Kissebbet adott meg a lehetséges minimunál (2), ezért egy átlagos értékkel dolgozok: 5</value>
+    <comment>09</comment>
+  </data>
+  <data name="MinHeight" xml:space="preserve">
+    <value>Kissebbet adott meg a lehetséges minimunál (5), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>06</comment>
+  </data>
+  <data name="MinLifeCycle" xml:space="preserve">
+    <value>Kissebbet adott meg a lehetséges minimunál (2), ezért egy átlagos értékkel dolgozok: 42</value>
+    <comment>12</comment>
+  </data>
+  <data name="MinSpeed" xml:space="preserve">
+    <value>Kissebbet adott meg a lehetséges minimunál (1), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>15</comment>
+  </data>
+  <data name="MinWidth" xml:space="preserve">
+    <value>Kissebbet adott meg a lehetséges minimunál (5), ezért ezzel az utóbbival dolgozok.</value>
+    <comment>03</comment>
+  </data>
+  <data name="PressAKey" xml:space="preserve">
+    <value>Nyomj meg egy gombot!</value>
+    <comment>17</comment>
+  </data>
+  <data name="reproduction" xml:space="preserve">
+    <value>szaporulat</value>
+    <comment>25</comment>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Állítsa be a játéktér méretét.</value>
+    <comment>01</comment>
+  </data>
+  <data name="speed" xml:space="preserve">
+    <value>Sebesség (1-10):</value>
+    <comment>14</comment>
+  </data>
+  <data name="startNumber" xml:space="preserve">
+    <value>Induló sejtszám:</value>
+    <comment>23</comment>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Adja meg a szélességet (5-116):</value>
+    <comment>02</comment>
+  </data>
+</root>
